@@ -1,0 +1,5 @@
+Components:
+- any: ['documentation/**/*']
+
+actions:
+- any: ['.github/**/*']
