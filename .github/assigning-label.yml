@@ -4,10 +4,24 @@ documentation:
 actions:
 - any: ['.github/**/*']
 
-- label: "Small diff"
+size/XS:
   size-below: 10
-- label: "Medium diff"
+  
+size/S:
   size-above: 9
+  size-below: 30
+
+size/M:
+  size-above: 29
   size-below: 100
-- label: "Large diff"
-  size-above: 100
+  
+size/L:
+  size-above: 99
+  size-below: 500
+
+size/XL:
+  size-above: 499
+  size-below: 1000
+
+size/XXL:
+  size-above: 1000
