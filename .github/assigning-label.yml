@@ -3,3 +3,11 @@ documentation:
 
 actions:
 - any: ['.github/**/*']
+
+- label: "Small diff"
+  size-below: 10
+- label: "Medium diff"
+  size-above: 9
+  size-below: 100
+- label: "Large diff"
+  size-above: 100
