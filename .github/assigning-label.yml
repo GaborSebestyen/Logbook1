@@ -2,7 +2,7 @@ documentation:
 - any: ['documentation/**/*']
 
 test:
-- any: ['test/**/*']
+- any: ['test.py']
 
 actions:
 - any: ['.github/**/*']
