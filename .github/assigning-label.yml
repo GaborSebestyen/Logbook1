@@ -3,13 +3,3 @@ documentation:
 
 actions:
 - any: ['.github/**/*']
-
-sizes: >
-  {
-    "0": "XS",
-    "20": "S",
-    "50": "M",
-    "200": "L",
-    "800": "XL",
-    "2000": "XXL"
-  }
