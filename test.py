@@ -9,6 +9,7 @@ from example import modulus
 
 def test_add():
     assert add(5, 6) == 11
+    assert add(6, 6) == 11
 
 def test_substract():
     assert substract(10, 3) == 7
