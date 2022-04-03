@@ -1,5 +1,8 @@
 documentation:
 - any: ['documentation/**/*']
 
+test:
+- any: ['test/**/*']
+
 actions:
 - any: ['.github/**/*']
